@@ -1,0 +1,163 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Birth Day Card</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/6.5.8/swiper-bundle.min.js"></script>
+  <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="style.css">
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+  </style>
+</head>
+<body>
+  <div class="introcontainer">
+    <!-- Slider main container -->
+    <div class="swiper-container">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card ong">
+              <img src="photos/adrita3.PNG" />
+              <div class="text">
+              </div>
+              <div class="title-box">
+                <h1> 👹</h1>
+                <p>“Clever as the Devil and twice as pretty.”</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card two">
+              <img src="photos/adrita4.PNG" alt="" />
+              <div class="text">
+              </div>
+              <div class="title-box">
+                <h1>🌼</h1>
+                <p>“Daisies, simple and sweet. Daisies are the way to win my heart.”</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card three">
+              <img src="photos/adrita5.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>💃</h1>
+                <p>“sibling who doesn’t fit in or follow the paths the rest of us take; who challenges and bewilders, upsets and dazzles
+                us; who scares some of us away; but who still loves us, in his or her way.”</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card ong">
+              <img src="photos/adrita6.jpeg" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>👰</h1>
+                <p>“Come back. Even as a shadow, even as a dream.”</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card four">
+              <img src="photos/adrita7.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>🧚</h1>
+                <p>“Friendship is unnecessary, like philosophy, like art.... It has no survival value; rather it is one of those things
+                which give value to survival.”</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card three">
+              <img src="photos/adrita1.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>🧚</h1>
+                <p>“OK then, picture daddy; whenever you’re afraid just close your eyes and picture me. I’ll be all that exists in your world and I promise to protect you.”</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <div class="cards">
+            <div class="card four">
+              <img src="photos/adrita2.PNG" alt="" />
+              <div class="text">
+              </div>
+  
+              <div class="title-box">
+                <h1>👸</h1>
+                <p>
+                "Love as powerful as your mother's for you leaves its own mark."</p>
+                <div class="seperator"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+  
+      <!-- If we need navigation buttons -->
+      <div class="swiper-arrows">
+        <div class="swiper-button-prev"><span></span></div>
+        <div class="swiper-button-next"><span></span></div>
+      </div>
+  
+      <!-- If we need scrollbar -->
+    </div>
+    <button class="next"><a href="second.html" target="_blank" >Next</a></button>
+  </div><script>
+    const swiper = new Swiper('.swiper-container', {
+      speed: 500,
+      pagination: {
+        el: '.swiper-pagination',
+        clickable: true,
+      },
+      centeredSlides: true,
+      paginationClickable: true,
+      watchSlidesProgress: true,
+      loop: true,
+      slidesPerView: 2,
+      spaceBetween: 30,
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+    });
+  </script>
+</body>
+</html>
